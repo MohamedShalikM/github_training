@@ -3,7 +3,27 @@
     margin:0;
     box-sizing: border-box;
 }
-
+div{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items:center ;
+}
 h1{
     color:rgb(187, 77, 238)
+}
+button{
+    padding:6px;
+    color:#fff;
+    width:fit-content;
+    background-color: rgb(47, 77, 252);
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+p{
+    padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(197, 21, 21);
 }

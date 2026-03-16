@@ -1,5 +1,9 @@
 const button = document.getElementById('btn');
-
+const p = document.getElementById('p');
 button.addEventListener('click',()=>{
-    console.log('button is clicked!')
+    if (p.textContent == ''){
+        p.textContent = 'button is clicked!' 
+    }else{
+        p.textContent = ''
+    } 
 })
